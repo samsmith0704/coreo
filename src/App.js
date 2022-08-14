@@ -1,9 +1,9 @@
-import DotContainer from "./Components/DotContainer";
+import HighLevelContainer from "./Components/HighLevelContainer";
 function App() {
   return (
     <div>
       <h1>
-        <DotContainer dotNum={6} />
+        <HighLevelContainer />
       </h1>
     </div>
   );
